@@ -8,7 +8,7 @@
 	var naoki = new google.maps.LatLng(41.924254, -87.636953);
 	var rolla = new google.maps.LatLng(41.943351, -87.649569);
 	
-	var location = {
+	var map = {
 		center: tao, yuzu, butterfly, naoki, rolla
 		zoom: 16,
 		mapTypeId: google.maps.MapTypeId.SATELLITE,
