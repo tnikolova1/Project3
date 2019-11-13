@@ -9,8 +9,30 @@ ul {
   padding: 0;
 }
 nav {
-  text-align: center;
-  color: red;
+    text-align: center;
+    color: red;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: 'Harabara Bold';
+}
+nav li{
+    display:inline;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration:none;
+    background-color:pink;
+    color:black;
+}
+nav a:hover {
+    background-color:#009;
+    color:#fff;
+}
   }
 .dobby {
   color: mediumseagreen;
@@ -79,6 +101,7 @@ nav {
   padding: 5px;
   position: static;
   }
+
 
 
 
@@ -288,3 +311,70 @@ div{
   width:100%
   }
   
+  @media only screen and (min-width: 720px) {
+    #wrapper { width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+    }
+    body { margin: 0;
+        padding: 0;
+    }
+    header {padding-top: 1px;
+    }
+    nav { float: top ;
+        width: auto;
+        padding-left: 2em;
+    }
+   
+    .skills {
+  text-align: center;
+  width: 100%;
+}
+.Skills {
+  text-align: center;
+  color:Red;
+  line-height:1.6;
+  font-weight:bold;
+  font-family: helvetica;
+  width: 100%;
+  }
+.education {
+  text-align: center;
+  color: Brown;
+  font-family: helvetica;
+  width: 100%;
+  }
+
+
+  }
+   
+  
+  #map {
+    width: 800px;
+    height: 600px;
+    background-color: rgb(248, 158, 158);
+    margin: 50px auto 
+}
+      @media only screen and (min-width: 1024px) {
+    #wrapper { width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+    }
+    body { margin: 0;
+        padding: 0;
+    }
+    header {padding-top: 1px;
+    }
+    nav { display: center;
+        width: auto;
+    }
+   .title {
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  margin: 5px 10px;
+  width: 100%;
+  }
+   
+}
