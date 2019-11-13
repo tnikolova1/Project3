@@ -8,7 +8,7 @@
 	var naoki = new google.maps.LatLng(41.924254, -87.636953);
 	var rolla = new google.maps.LatLng(41.943351, -87.649569);
 	
-	var myMap = {
+	var location = {
 		center: tao, yuzu, butterfly, naoki, rolla
 		zoom: 16,
 		mapTypeId: google.maps.MapTypeId.SATELLITE,
@@ -17,8 +17,30 @@
 		}
 	};
 
-	var myMap = new google.maps.Map(map, mapOptions);
+	var location = new google.maps.Map(map, mapOptions);
       }
+      
+    var marker1 = new google.maps.Marker({
+		position: tao,
+		map: location,	
+	});
+	
+	var marker2 = new google.maps.Marker({
+		position: yuzu,
+		map: location,	
+	});
+	var marker3 = new google.maps.Marker({
+		position: butterfly,
+		map: location,	
+	});
+	var marker = new google.maps.Marker({
+		position: naoki,
+		map: location,	
+	});
+	var marker = new google.maps.Marker({
+		position: rolla,
+		map: location,	
+	});
       
 google.maps.event.addDomListener(window, 'load', initMap);  
 
