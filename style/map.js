@@ -18,7 +18,7 @@
 	};
 
 	var location = new google.maps.Map(map, mapOptions);
-      }
+      
       
     var marker1 = new google.maps.Marker({
 		position: tao,
@@ -41,6 +41,7 @@
 		position: rolla,
 		map: location,	
 	});
+}
       
 google.maps.event.addDomListener(window, 'load', initMap);  
 
