@@ -11,7 +11,7 @@
 
 	var map = {
 		center: tao, yuzu, butterfly, naoki, rolla
-		zoom: 16,
+		zoom: 16;
 		mapTypeId: google.maps.MapTypeId.SATELLITE,
 		mapTypeControlOptions: {
 			position: google.maps.ControlPosition.BOTTOM_CENTER
