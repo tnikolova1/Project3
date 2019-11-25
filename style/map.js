@@ -51,6 +51,6 @@ function initMap() {
 		map: location,
 	});
 }
-
-//google.maps.event.addDomListener(window, 'load', initMap);
-window.addEventListener('load', initMap ); */
+*/
+google.maps.event.addDomListener(window, 'load', initMap);
+//window.addEventListener('load', initMap );
