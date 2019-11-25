@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <title>Map</title>
     <link rel="stylesheet" href="style/style.css"/>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTlfRXf7PvsoS0akr5h3UDYxgVPiECAso&callback=initMap"></script>
+    <link rel="stylesheet" media="screen" href="style/normalize.css"/>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="style/map.js"></script>
   </head>
   <body>
+    <div id="container">
     <nav>
       <ul>
         <li><a href="index.html">Resume</a></li>
@@ -16,9 +18,9 @@
         <li><a href="map.html">Map</a></li>
       </ul>
     </nav>
-    <div id="wrapper">
+    <!--<div id="wrapper">
      <div id="container"></div>
-     </div>
+   </div> -->
     <h1>Those are all the places where you can find good sushi in Chicago!</h1>
     <h2 class="sushi">Sushi Time!</h2>
     <div class="Tao">Tao Chicago</div>
@@ -27,5 +29,7 @@
     <div class="Naoki Sushi">Naoki Sushi</div>
     <div class="Rollapalooza">Rollapalooza</div>
     <div id="map"></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTlfRXf7PvsoS0akr5h3UDYxgVPiECAso&callback=initMap"></script>
+    <div>
   </body>
 </html>
