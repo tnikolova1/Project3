@@ -340,76 +340,136 @@ div{
   width: 100%;
 }
 
-@media only screen and (min-width: 720px){
-  #wrapper {
-    width: 100%;
-    min-width: 0;
-    margin: 0;
-    padding: 0;
+@media only screen and (max-width: 720px){
+  .title{
+    background-color: lightpink;
+    font-family: arial;
+    color: lightsalmon;
   }
-
-  body{
-    margin: 0;
-    padding: 0;
-  }
-
-  header{
-    padding-top: 1px;
-  }
-
-  nav{
-    float: top;
-    width: auto;
-    padding-left: 2em;
-  }
-
-  .skills{
-    text-align: center;
-    width: 100%;
-  }
-
   .Skills{
     text-align: center;
     color: Red;
     line-height: 1.6;
     font-weight: bold;
     font-family: helvetica;
-    width: 100%;
+    display: block;
+    background-color: MistyRose;
+    width: 80%;
+    padding: .3% 0% .3% 1%;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
   }
-
+  .skills{
+    text-align: center;
+    display: block;
+    background-color: MistyRose;
+    width: 80%;
+    padding: .3% 0% .3% 1%;
+    border-radius: 5px;
+    margin: auto;
+  }
+  .email{
+    text-align: center;
+    color: DarkRed;
+    font-family: helvetica;
+    display: block;
+    background-color: MistyRose;
+    width: 80%;
+    padding: .3% 0% .3% 1%;
+    border-radius: 5px;
+    margin: auto;
+  }
   .education{
     text-align: center;
     color: Brown;
     font-family: helvetica;
-    width: 100%;
+    display: block;
+    background-color: MistyRose;
+    width: 80%;
+    padding: .3% 0% .3% 1%;
+    border-radius: 5px;
+    text-align: left;
+    margin: auto;
+  }
+  .experience{
+    color: Brown;
+    font-family: helvetica;
+    display: block;
+    background-color: MistyRose;
+    width: 80%;
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
   }
 }
-@media only screen and (min-width: 1024px) {
-  #wrapper{
-    width: 100%;
-    min-width: 0;
-    margin: 0;
-    padding: 0;
-  }
-
-  body{
-    margin: 0;
-    padding: 0;
-  }
-
-  header{
-    padding-top: 1px;
-  }
-
-  nav{
-    width: auto;
-  }
-
+@media only screen and (max-width: 480px) {
   .title{
+    background-color: lightpink;
+    font-family: arial;
+    color: lightsalmon;
+    padding: .3% 0% .3% 1%;
+    border-radius: 5px;
+  }
+  .Skills{
     text-align: center;
-    padding: 5px 10px 5px 10px;
-    margin: 5px 10px;
-    width: 100%;
+    color: Red;
+    line-height: 1.6;
+    font-weight: bold;
+    font-family: arial;
+    display: block;
+    background-color: LightPink;
+    width: 50%;
+    padding: .3% 0% .3% 1%;
+    border-radius: 5px;
+  }
+  .skills{
+    text-align: center;
+    display: block;
+    background-color: blue;
+    font-family: arial;
+    width: 50%;
+    padding: .3% 0% .3% 1%;
+    border-radius: 5px;
+    margin: auto;
+  }
+  .email{
+    text-align: center;
+    color: DarkRed;
+    font-family: arial;
+    display: block;
+    background-color: LightPink;
+    width: 50%;
+    padding: .3% 0% .3% 1%;
+    border-radius: 5px;
+    margin: auto;
+  }
+  .education{
+    text-align: center;
+    color: Brown;
+    font-family: arial;
+    display: block;
+    background-color: mediumseagreen;
+    width: 50%;
+    padding: .3% 0% .3% 1%;
+    border-radius: 5px;
+    margin: auto;
+  }
+  .experience{
+    text-align: center;
+    color: Brown;
+    font-family: arial;
+    display: block;
+    background-color: lightpink;
+    color: yellow;
+    width: 50%;
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+    margin: auto;
   }
 }
 #container {
@@ -437,7 +497,7 @@ div{
     display: inline-block
 }
 .mySLides{
-  overflow:hidden;
+  display:none;
 }
 
 .prev,
