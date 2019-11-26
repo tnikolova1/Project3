@@ -232,11 +232,15 @@ div {
   width: 100%;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width: 1024px) {
+  li {
+    padding: 0;
+    list-style: none;
+  }
   .title {
-    background-color: lightpink;
-    font-family: arial;
-    color: lightsalmon;
+    color: OrangeRed;
+    background-color: Pink;
+    font-family: helvetica;
   }
   .Skills {
     text-align: center;
@@ -283,7 +287,6 @@ div {
     width: 80%;
     padding: .3% 0% .3% 1%;
     border-radius: 5px;
-    text-align: left;
     margin: auto;
   }
   .experience {
@@ -299,11 +302,15 @@ div {
     margin: auto;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
+  li {
+    padding: 0;
+    list-style: none;
+  }
   .title {
-    background-color: lightpink;
-    font-family: arial;
-    color: lightsalmon;
+    color: OrangeRed;
+    background-color: Pink;
+    font-family: helvetica;
     padding: .3% 0% .3% 1%;
     border-radius: 5px;
   }
@@ -312,9 +319,9 @@ div {
     color: Red;
     line-height: 1.6;
     font-weight: bold;
-    font-family: arial;
+    font-family: helvetica;
     display: block;
-    background-color: LightPink;
+    background-color: MistyRose;
     width: 50%;
     padding: .3% 0% .3% 1%;
     border-radius: 5px;
@@ -322,8 +329,8 @@ div {
   .skills {
     text-align: center;
     display: block;
-    background-color: blue;
-    font-family: arial;
+    background-color: MistyRose;
+    font-family: helvetica;
     width: 50%;
     padding: .3% 0% .3% 1%;
     border-radius: 5px;
@@ -334,7 +341,7 @@ div {
     color: DarkRed;
     font-family: arial;
     display: block;
-    background-color: LightPink;
+    background-color: MistyRose;
     width: 50%;
     padding: .3% 0% .3% 1%;
     border-radius: 5px;
@@ -345,10 +352,9 @@ div {
     color: Brown;
     font-family: arial;
     display: block;
-    background-color: mediumseagreen;
     width: 50%;
     padding: .3% 0% .3% 1%;
-    border-radius: 5px;
+    border-radius: 4px;
     margin: auto;
   }
   .experience {
@@ -356,8 +362,6 @@ div {
     color: Brown;
     font-family: arial;
     display: block;
-    background-color: lightpink;
-    color: yellow;
     width: 50%;
     padding: 5px 5px 5px 5px;
     border-radius: 4px;
