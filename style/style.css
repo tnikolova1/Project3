@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker|Rubik+Mono+One&display=swap');
 
-body{
+body {
   background-color: MistyRose;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0;
 }
 
-nav{
+nav {
   text-align: center;
   color: red;
   border: 1px solid #ccc;
@@ -21,11 +21,11 @@ nav{
   font-family: 'Harabara Bold';
 }
 
-nav li{
+nav li {
   display: inline;
 }
 
-nav a{
+nav a {
   display: inline-block;
   padding: 10px;
   text-decoration: none;
@@ -33,90 +33,64 @@ nav a{
   color: black;
 }
 
-nav a:hover{
+nav a:hover {
   background-color: #009;
   color: #fff;
 }
 
 
-.dobby{
+.dobby {
   color: mediumseagreen;
   font-family: 'Indie Flower', cursive;
   font-size: 22pt;
 }
 
-.text1{
+.text1,
+.text3,
+.text5 {
   color: darkorange;
   font-family: 'Indie Flower', cursive;
   font-size: 16pt;
 }
 
-.text2{
+.text2,
+.text4,
+.text6 {
   color: mediumseagreen;
   font-family: 'Indie Flower', cursive;
   font-size: 16pt;
 }
 
-.text3{
-  color: darkorange;
-  font-family: 'Indie Flower', cursive;
-  font-size: 16pt;
-}
-
-.text4{
-  color: mediumseagreen;
-  font-family: 'Indie Flower', cursive;
-  font-size: 16pt;
-}
-
-.text5{
-  color: darkorange;
-  font-family: 'Indie Flower', cursive;
-  font-size: 16pt;
-}
-
-.text6{
-  color: mediumseagreen;
-  font-family: 'Indie Flower', cursive;
-  font-size: 16pt;
-}
-
-.dobby1{
+.dobby1 {
   float: left;
   width: 45%;
   padding: 10px;
   position: static;
 }
 
-.dobby2{
+.dobby2 {
   float: right;
   width: 45%;
   padding: 0px;
   position: static;
 }
 
-.dobby3{
+.dobby3 {
   float: right;
   width: 45%;
   padding: 5px;
   position: static;
 }
 
-.dobby4{
+.dobby4,
+.dobby5 {
   float: left;
   width: 45%;
   padding: 5px;
   position: static;
 }
 
-.dobby5{
-  float: left;
-  width: 45%;
-  padding: 5px;
-  position: static;
-}
-
-.Bulgaria1{
+.Bulgaria1 {
   background-color: Turquoise;
   color: white;
   font-family: 'Rubik Mono One', sans-serif;
@@ -124,7 +98,12 @@ nav a:hover{
   text-align: center;
 }
 
-.Europa{
+.Europa,
+.History,
+.Union,
+.Language,
+.Tourism,
+.Climate {
   background-color: MediumTurquoise;
   color: white;
   font-family: 'Permanent Marker', cursive;
@@ -132,131 +111,50 @@ nav a:hover{
   text-align: center;
 }
 
-.History{
-  background-color: MediumTurquoise;
-  color: white;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 30pt;
-  text-align: center;
-}
-
-.Union{
-  background-color: MediumTurquoise;
-  color: white;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 30pt;
-  text-align: center;
-}
-
-.Language{
-  background-color: MediumTurquoise;
-  color: white;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 30pt;
-  text-align: center;
-}
-
-.Climate{
-  background-color: MediumTurquoise;
-  color: white;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 30pt;
-  text-align: center;
-}
-
-.Tourism{
-  background-color: MediumTurquoise;
-  color: white;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 30pt;
-  text-align: center;
-}
-
-.Text1{
+.Text1,
+.Text4 {
   color: Crimson;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16pt;
   text-align: center;
 }
 
-.Text2{
+.Text2,
+.Text5 {
   color: MediumVioletRed;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16pt;
   text-align: center;
 }
 
-.Text3{
+.Text3,
+.Text6 {
   color: Blue;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16pt;
   text-align: center;
 }
 
-.Text4{
-  color: Crimson;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16pt;
-  text-align: center;
-}
-
-.Text5{
-  color: MediumVioletRed;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16pt;
-  text-align: center;
-}
-
-.Text6{
-  color: Blue;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16pt;
-  text-align: center;
-}
-
-.bg3{
+.bg3,
+.Bg2,
+.Bg4 {
   float: left;
   width: 33.33%;
   padding: 5px;
   position: static;
 }
 
-.Bg1{
+.Bg1,
+.Bg5,
+.Bg6 {
   float: right;
   width: 33.33%;
   padding: 5px;
   position:static;
 }
 
-.Bg2{
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-  position: static;
-}
 
-.Bg5{
-  float: right;
-  width: 33.33%;
-  padding: 5px;
-  position: static;
-}
-
-.Bg4{
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-  position: static;
-}
-
-.Bg6{
-  float: right;
-  width: 33.33%;
-  padding: 5px;
-  position: static;
-}
-
-.title{
+.title {
   text-align: center;
   color: OrangeRed;
   background-color: Pink;
@@ -266,7 +164,7 @@ nav a:hover{
   width: 100%;
 }
 
-h1{
+h1 {
   text-align: center;
   background-color: LightPink;
   color: Crimson;
@@ -276,35 +174,36 @@ h1{
   width: 100%;
 }
 
-.email{
+.email {
   text-align: center;
   color: DarkRed;
   font-family: helvetica;
   width: 100%;
 }
 
-p{
+p {
   text-align: center;
   color: Maroon;
   font-family: helvetica;
   width: 100%;
 }
 
-h2{
+h2 {
   text-align: center;
   color: OrangeRed;
   font-family: helvetica;
   width: 100%;
 }
 
-.skills {
+.skills,
+.education {
   text-align: center;
   color: Brown;
   font-family: helvetica;
   width: 100%;
 }
 
-.Skills{
+.Skills {
   text-align: center;
   color: Red;
   line-height: 1.6;
@@ -313,26 +212,19 @@ h2{
   width: 100%;
 }
 
-.education{
+.experience {
   text-align: center;
   color: Brown;
   font-family: helvetica;
   width: 100%;
 }
 
-.experience{
-  text-align: center;
-  color: Brown;
-  font-family: helvetica;
-  width: 100%;
-}
-
-.dobby{
+.dobby {
   color: green;
   font-family: 'Indie Flower', cursive;
 }
 
-div{
+div {
   text-align: center;
   color: Red;
   font-weight: bold;
@@ -340,13 +232,13 @@ div{
   width: 100%;
 }
 
-@media only screen and (max-width: 720px){
-  .title{
+@media only screen and (max-width: 720px) {
+  .title {
     background-color: lightpink;
     font-family: arial;
     color: lightsalmon;
   }
-  .Skills{
+  .Skills {
     text-align: center;
     color: Red;
     line-height: 1.6;
@@ -362,7 +254,7 @@ div{
     margin-right: auto;
     margin-bottom: 1%;
   }
-  .skills{
+  .skills {
     text-align: center;
     display: block;
     background-color: MistyRose;
@@ -371,7 +263,7 @@ div{
     border-radius: 5px;
     margin: auto;
   }
-  .email{
+  .email {
     text-align: center;
     color: DarkRed;
     font-family: helvetica;
@@ -382,7 +274,7 @@ div{
     border-radius: 5px;
     margin: auto;
   }
-  .education{
+  .education {
     text-align: center;
     color: Brown;
     font-family: helvetica;
@@ -394,7 +286,7 @@ div{
     text-align: left;
     margin: auto;
   }
-  .experience{
+  .experience {
     color: Brown;
     font-family: helvetica;
     display: block;
@@ -408,14 +300,14 @@ div{
   }
 }
 @media only screen and (max-width: 480px) {
-  .title{
+  .title {
     background-color: lightpink;
     font-family: arial;
     color: lightsalmon;
     padding: .3% 0% .3% 1%;
     border-radius: 5px;
   }
-  .Skills{
+  .Skills {
     text-align: center;
     color: Red;
     line-height: 1.6;
@@ -427,7 +319,7 @@ div{
     padding: .3% 0% .3% 1%;
     border-radius: 5px;
   }
-  .skills{
+  .skills {
     text-align: center;
     display: block;
     background-color: blue;
@@ -437,7 +329,7 @@ div{
     border-radius: 5px;
     margin: auto;
   }
-  .email{
+  .email {
     text-align: center;
     color: DarkRed;
     font-family: arial;
@@ -448,7 +340,7 @@ div{
     border-radius: 5px;
     margin: auto;
   }
-  .education{
+  .education {
     text-align: center;
     color: Brown;
     font-family: arial;
@@ -459,7 +351,7 @@ div{
     border-radius: 5px;
     margin: auto;
   }
-  .experience{
+  .experience {
     text-align: center;
     color: Brown;
     font-family: arial;
@@ -478,7 +370,8 @@ div{
   resize: both;
   overflow: auto;
 }
-#map{
+
+#map {
   width: 100%;
   height: 700px;
   position: BOTTOM_CENTER;
@@ -488,15 +381,12 @@ div{
 
 .slideshow-container {
   max-width: 600px;
-
   margin-right: 10px;
   margin-top: 65px;
-    border:5px solid pink;
-
-    text-align: center;
-    display: inline-block
+  border:5px solid pink;
+  display: flex;
 }
-.mySLides{
+.mySLides {
   display:none;
 }
 
