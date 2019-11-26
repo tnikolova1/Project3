@@ -2,7 +2,6 @@
 <html lang="en">
   <head >
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css"/>
     <link rel="stylesheet" media="screen" href="style/normalize.css"/>
     <title>Map</title>
@@ -11,39 +10,37 @@
   </head>
   <body>
     <div id="container">
-    <nav>
-      <ul>
-        <li><a href="index.html">Resume</a></li>
-        <li><a href="bulgaria.html">Bulgaria</a></li>
-        <li><a href="dobby.html">Dobby</a></li>
-        <li><a href="map.html">Map</a></li>
-      </ul>
-    </nav>
-
-    <h1>Those are all the places where you can find good sushi in Chicago!</h1>
-    <h2 class="sushi">Sushi Time!</h2>
-    <div class="slideshow-container">
-      <div class="mySlides">
-        <img src="images/sushi1.jpg" style="width:100%" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Resume</a></li>
+          <li><a href="bulgaria.html">Bulgaria</a></li>
+          <li><a href="dobby.html">Dobby</a></li>
+          <li><a href="map.html">Map</a></li>
+        </ul>
+      </nav>
+      <h1>Those are all the places where you can find good sushi in Chicago!</h1>
+      <h2 class="sushi">Sushi Time!</h2>
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <img src="images/sushi1.jpg" style="width:100%" />
+        </div>
+        <div class="mySlides">
+          <img src="images/sushi2.jpg" style="width:100%" />
+        </div>
+        <div class="mySlides">
+          <img src="images/sushi3.jpg" style="width:100%" />
+        </div>
+        <div class="mySlides">
+          <img src="images/sushi4.jpg" style="width:100%" />
+        </div>
+        <div class="mySlides">
+          <img src="images/sushi5.jpg" style="width:100%" />
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-      <div class="mySlides">
-        <img src="images/sushi2.jpg" style="width:100%" />
-      </div>
-      <div class="mySlides">
-        <img src="images/sushi3.jpg" style="width:100%" />
-      </div>
-      <div class="mySlides">
-        <img src="images/sushi4.jpg" style="width:100%" />
-      </div>
-      <div class="mySlides">
-        <img src="images/sushi5.jpg" style="width:100%" />
-      </div>
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <div id="map"></div>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTlfRXf7PvsoS0akr5h3UDYxgVPiECAso&callback=initMap"></script>
     </div>
-    <div id="map"></div>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTlfRXf7PvsoS0akr5h3UDYxgVPiECAso&callback=initMap"></script>
-    </div>
-
   </body>
 </html>
