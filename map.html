@@ -2,9 +2,10 @@
 <html lang="en">
   <head >
     <meta charset="utf-8">
-    <title>Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css"/>
     <link rel="stylesheet" media="screen" href="style/normalize.css"/>
+    <title>Map</title>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/map.js"></script>
   </head>
@@ -18,18 +19,33 @@
         <li><a href="map.html">Map</a></li>
       </ul>
     </nav>
-    <!--<div id="wrapper">
-     <div id="container"></div>
-   </div> -->
+
     <h1>Those are all the places where you can find good sushi in Chicago!</h1>
     <h2 class="sushi">Sushi Time!</h2>
-    <div class="Tao">Tao Chicago</div>
-    <div class="Yuzu Sushi & Robata Grill">Yuzu Sushi & Robata Grill</div>
-    <div class="Butterfly Sushi">Butterfly Sushi</div>
-    <div class="Naoki Sushi">Naoki Sushi</div>
-    <div class="Rollapalooza">Rollapalooza</div>
+    <div class="slideshow-container">
+      <div class="mySlides">
+        <img src="images/sushi1.jpg" style="width:100%" />
+      </div>
+      <div class="mySlides">
+        <img src="images/sushi2.jpg" style="width:100%" />
+      </div>
+      <div class="mySlides">
+        <img src="images/sushi3.jpg" style="width:100%" />
+      </div>
+      <div class="mySlides">
+        <img src="images/sushi4.jpg" style="width:100%" />
+      </div>
+      <div class="mySlides">
+        <img src="images/sushi5.jpg" style="width:100%" />
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
     <div id="map"></div>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTlfRXf7PvsoS0akr5h3UDYxgVPiECAso&callback=initMap"></script>
-    <div>
+    </div>
+
+
+
   </body>
 </html>
