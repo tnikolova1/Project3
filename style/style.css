@@ -392,6 +392,7 @@ div {
 }
 .mySLides {
   display:none;
+  width:100%;
 }
 
 .prev,
